@@ -9,6 +9,10 @@ header {
   padding: 20px;
 }
 
+p {
+  line-height: 1.5;
+}
+
 nav {
   display: inline-block;
   width: 100%;
@@ -27,10 +31,6 @@ header ul li {
 section {
   padding: 5%;
   background-color: #f8f0fb;
-}
-
-img {
-  border: 5px solid #8075ff;
 }
 
 h1,
@@ -76,6 +76,7 @@ footer {
 }
 
 .introduction {
+  background-color: white;
 }
 
 #badge {
