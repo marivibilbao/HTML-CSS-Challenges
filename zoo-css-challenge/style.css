@@ -141,6 +141,10 @@ footer {
   color: #F4743B;
 }
 
+p.letter {
+  font-size: 23px;
+}
+
 .card {
   display: inline-block;
   background-color: white;
