@@ -59,17 +59,19 @@ button {
   display: inline-block;
   border-radius: 3px;
   cursor: pointer;
-  padding: 30px 40px;
+  padding: 10px 20px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
   background-color: #372772;
   border: 2px solid black;
   color: #fff;
+  font-size: 200%;
 }
 
 .button-education:hover,
 .button-education:focus {
   background: #ef7f52; 
 }  
+
 footer {
   background-color: #211a1d;
   color: #ffffff;
@@ -97,6 +99,7 @@ footer {
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  transition-duration: 0.9s;
 }
 
 #badge:hover {
@@ -143,6 +146,15 @@ footer {
 
 .giraffes-titles {
   color: #F4743B;
+}
+
+.elephant {
+  background-color: #ECA2E3;
+  color: #0E1162;
+}
+
+.elephant-titles {
+  color: #FFFFFF;
 }
 
 p.letter {
