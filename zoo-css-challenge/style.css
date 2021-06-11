@@ -145,6 +145,10 @@ p.letter {
   font-size: 23px;
 }
 
+.news .h2 {
+  text-align:center;
+}
+
 .card {
   display: inline-block;
   background-color: white;
