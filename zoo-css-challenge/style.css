@@ -59,13 +59,17 @@ button {
   display: inline-block;
   border-radius: 3px;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 30px 40px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
   background-color: #372772;
   border: 2px solid black;
   color: #fff;
 }
 
+.button-education:hover,
+.button-education:focus {
+  background: #ef7f52; 
+}  
 footer {
   background-color: #211a1d;
   color: #ffffff;
@@ -189,6 +193,7 @@ p.letter {
   background-color: rgba(255, 255, 255, 0.75);
   padding: 50px;
   max-width: 400px;
+  border-radius: 5px;
 }
 
 .education-container h3,
