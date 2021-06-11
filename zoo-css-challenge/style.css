@@ -127,10 +127,6 @@ footer {
   vertical-align: top;
 }
 
-.image-container img:first-of-type {
-  vertical-align: bottom;
-}
-
 .tigers {
   background-color: #0b3c49;
   color: #f0e100;
@@ -156,6 +152,10 @@ footer {
 
 .elephant-titles {
   color: #FFFFFF;
+}
+
+.img-elephant{
+  border: 2.5px solid black;
 }
 
 p.letter {
