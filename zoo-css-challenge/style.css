@@ -100,11 +100,11 @@ footer {
   justify-content: center;
   align-content: center;
   flex-direction: column;
-  transition-duration: 0.9s;
-}
+  }
 
 #badge:hover {
   background-color: yellow;
+  transition-duration: 1.5s;
 }
 
 #badge p {
@@ -238,4 +238,9 @@ p.letter {
 
 .programs .card {
   display: block;
+}
+
+.horizontal-card {
+  display: flex;
+  align-items: stretch;
 }
